@@ -31,6 +31,7 @@ final_output=Softmax(input_of_layer)
 function Weight=DeepLearning(Weight,input_Image,correct_Output)
     alpha=0.01; % learning rate
     for k=1:5
+        % learning using forward propagation
         reshaped_input_Image=input_Image(:,:,k);
         reshaped_input_Image=reshape(reshaped_input_Image,size(reshaped_input_Image,1)*size(reshaped_input_Image,2),1);
         
@@ -40,9 +41,7 @@ function Weight=DeepLearning(Weight,input_Image,correct_Output)
         correct_Output_transpose=correct_Output(k,:)';
         error=correct_Output_transpose-final_output;
         
-        delta=error;
-        adjustment_of_weight=alpha*delta*reshaped_input_Image';
-        Weight=Weight+adjustment_of_weight;
+        Weight=Weight+alpha*error*reshaped_input_Image'; % adjusting weights using the new learned values
         
     end
 end

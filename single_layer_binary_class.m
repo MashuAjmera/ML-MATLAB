@@ -24,6 +24,7 @@ function Weight=SGD_method(Weight,input,correct_Output)
     alpha=0.9; % setting learning rate as 0.9
     N=length(input);
     for k=1:N
+        % learning using forward propagation
         transposed_Input=input(k,:)';
         d=correct_Output(k);
         weighted_Sum=Weight*transposed_Input;
@@ -33,6 +34,7 @@ function Weight=SGD_method(Weight,input,correct_Output)
         delta=output*(1-output)*error;
         dWeight=alpha*delta*transposed_Input;
         
+        % adjusting weights using the new learned values
         for i=1:length(transposed_Input)
             Weight(i)=Weight(i)+dWeight(i);
         end
