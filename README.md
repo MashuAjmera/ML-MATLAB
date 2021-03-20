@@ -14,3 +14,12 @@ This is a repository of various machine learning algorithms written in MATLAB.
 - [Single layer Neural Network for Multi class classification problem](https://github.com/MashuAjmera/ML-MATLAB/single_layer_multi_class.m)
 - [Multi Layer Neural Network (Back Propagation Algorithm) for Binary class Classification problem](https://github.com/MashuAjmera/ML_MATLAB/multi_layer_binary_class.m)
 - [Multi Layer Neural Network (Back Propagation Algorithm) for Multi class Classification problem](https://github.com/MashuAjmera/ML_MATLAB/multi_layer_multi_class.m)
+- [Multi Layer Neural Network (Back Propagation Algorithm) for Binary class Classification problem using categorical dataset](https://github.com/MashuAjmera/ML_MATLAB/multi_layer_binary_class_cat.m)
+
+## Bayesian Inference Model
+
+- [Forecast Olympic Race Result Using Posterior Predictive Distribution](https://github.com/MashuAjmera/ML_MATLAB/bayesian.m) | [Tutorial](https://in.mathworks.com/help/econ/conjugateblm.forecast.html)
+
+## ThingSpeak
+
+- [Analyzing and Predicting ThingSpeak Weather Data](https://github.com/MashuAjmera/ML_MATLAB/aiot.mlx) | [VIdeo Reference](https://www.youtube.com/watch?v=DLeZN9U5LDE)
