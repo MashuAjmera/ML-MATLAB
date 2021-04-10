@@ -20,6 +20,10 @@ This is a repository of various machine learning algorithms written in MATLAB.
 
 - [Forecast Olympic Race Result Using Posterior Predictive Distribution](https://github.com/MashuAjmera/ML_MATLAB/bayesian.m) | [Tutorial](https://in.mathworks.com/help/econ/conjugateblm.forecast.html)
 
+## K Nearnest Neighbours
+
+- [Predict whether the patient is diabetic](https://github.com/MashuAjmera/ML_MATLAB/knn.m) | [Tutorial](https://www.youtube.com/watch?v=FPVLWh4iX0Q)
+
 ## ThingSpeak
 
 - [Analyzing and Predicting ThingSpeak Weather Data](https://github.com/MashuAjmera/ML_MATLAB/aiot.mlx) | [VIdeo Reference](https://www.youtube.com/watch?v=DLeZN9U5LDE)
