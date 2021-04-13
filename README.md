@@ -24,6 +24,10 @@ This is a repository of various machine learning algorithms written in MATLAB.
 
 - [Predict whether the patient is diabetic](https://github.com/MashuAjmera/ML_MATLAB/knn.m) | [Tutorial](https://www.youtube.com/watch?v=FPVLWh4iX0Q)
 
+# Support Vector Machines
+
+- [SVM for binary classification](https://github.com/MashuAjmera/ML_MATLAB/svm_bin.m)
+
 ## ThingSpeak
 
 - [Analyzing and Predicting ThingSpeak Weather Data](https://github.com/MashuAjmera/ML_MATLAB/aiot.mlx) | [VIdeo Reference](https://www.youtube.com/watch?v=DLeZN9U5LDE)
