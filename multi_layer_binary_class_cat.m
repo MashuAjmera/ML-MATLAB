@@ -2,7 +2,7 @@ clear % clearing the wokspace
 clc % clearing the terminal
 close all % closing all open windows
 
-T= readtable('Set 10.csv');
+T= readtable('cancer.csv');
 [T.Var2,gN]=grp2idx(T.Var2);
 T.Var2=T.Var2-1;
 
