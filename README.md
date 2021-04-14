@@ -35,6 +35,7 @@ Here, I have written the code to implement the KNN algorithm for the diabetes da
 Here, I have written the code to implement the SVM algorithm for the IRIS dataset. The data set consists of 50 samples from each of three species of Iris (Iris Setosa, Iris virginica, and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters.
 
 - [SVM for binary classification](https://github.com/MashuAjmera/ML_MATLAB/svm_bin.m)
+- [SVM for multi class classification](https://github.com/MashuAjmera/ML_MATLAB/svm_mul.m)
 
 ## ThingSpeak
 
