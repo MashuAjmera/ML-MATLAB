@@ -12,7 +12,7 @@ This is a repository of various machine learning algorithms written in MATLAB.
 
 Here, I have constructed decision tree from the dataset for the diabetes dataset. The datasets consist of several medical predictor (independent) variables and one target (dependent) variable, Outcome. Independent variables include the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
 
-- [Decision Tree implemented using CART](https://github.com/MashuAjmera/ML-MATLAB/dtree.m)
+- [Decision Tree implemented using CART](https://github.com/MashuAjmera/ML-MATLAB/dtree.m) | [Tutorial](https://towardsdatascience.com/decision-tree-from-scratch-in-python-46e99dfea775)
 
 ## Artificial Neural Network
 
@@ -26,7 +26,7 @@ In the fifth part, I have written a program to implement Multilayer Neural Netwo
 
 ## Bayesian Inference Model
 
-Here, I have apply the conjugate Bayesian Inference model assuming the Olympic Track & Field Events dataset to be Gaussian to predict the future value.
+Here, I have applied the conjugate Bayesian Inference model library assuming the Olympic Track & Field Events dataset to be Gaussian to predict the future value.
 
 - [Forecast Olympic Race Result Using Posterior Predictive Distribution](https://github.com/MashuAjmera/ML_MATLAB/bayesian.m) | [Tutorial](https://in.mathworks.com/help/econ/conjugateblm.forecast.html)
 
