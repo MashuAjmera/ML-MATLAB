@@ -8,6 +8,12 @@ This is a repository of various machine learning algorithms written in MATLAB.
 - [Supervised learning using polynomial regression and k fold cross validation](https://github.com/MashuAjmera/ML-MATLAB/least_squares_kFoldCV_regression.m)
 - [Applying polynomial regression using maximum likelihood estimation](https://github.com/MashuAjmera/ML_MATLAB/mle_regression.m)
 
+## Decision Tree
+
+Here, I have constructed decision tree from the dataset for the diabetes dataset. The datasets consist of several medical predictor (independent) variables and one target (dependent) variable, Outcome. Independent variables include the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
+
+- [Decision Tree implemented using CART](https://github.com/MashuAjmera/ML-MATLAB/dtree.m)
+
 ## Artificial Neural Network
 
 - [Single layer Neural Network for Binary class classification problem](https://github.com/MashuAjmera/ML-MATLAB/single_layer_binary_class.m)
