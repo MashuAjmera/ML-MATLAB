@@ -1,10 +1,10 @@
 # ML-MATLAB
 
-This is a repository of various machine learning algorithms written in MATLAB.
+This is a repository of various machine learning algorithms written in MATLAB ([Tutorial](https://www.youtube.com/watch?v=T_ekAD7U-wU)).
 
 ## Regression
 
-- [Plotting the curve for polynomial regression using least squares approximation](https://github.com/MashuAjmera/ML-MATLAB/least_squares_regression.m)
+- [Plotting the curve for polynomial regression using least squares approximation](https://github.com/MashuAjmera/ML-MATLAB/least_squares_regression.m) | [Tutorial](https://www.youtube.com/watch?v=5usW7aqo-bU)
 - [Supervised learning using polynomial regression and k fold cross validation](https://github.com/MashuAjmera/ML-MATLAB/least_squares_kFoldCV_regression.m)
 - [Applying polynomial regression using maximum likelihood estimation](https://github.com/MashuAjmera/ML_MATLAB/mle_regression.m)
 
@@ -16,13 +16,17 @@ Here, I have constructed decision tree from the dataset for the diabetes dataset
 
 ## Artificial Neural Network
 
-- [Single layer Neural Network for Binary class classification problem](https://github.com/MashuAjmera/ML-MATLAB/single_layer_binary_class.m)
+- [Single layer Neural Network for Binary class classification problem](https://github.com/MashuAjmera/ML-MATLAB/single_layer_binary_class.m) | [Tutorial](https://www.youtube.com/watch?v=WoLBeWclYxo)
 - [Single layer Neural Network for Multi class classification problem](https://github.com/MashuAjmera/ML-MATLAB/single_layer_multi_class.m)
 - [Multi Layer Neural Network (Back Propagation Algorithm) for Binary class Classification problem](https://github.com/MashuAjmera/ML_MATLAB/multi_layer_binary_class.m)
-- [Multi Layer Neural Network (Back Propagation Algorithm) for Multi class Classification problem](https://github.com/MashuAjmera/ML_MATLAB/multi_layer_multi_class.m)
+- [Multi Layer Neural Network (Back Propagation Algorithm) for Multi class Image Classification problem](https://github.com/MashuAjmera/ML_MATLAB/multi_layer_multi_class_image.m) | [Tutorial](https://www.youtube.com/watch?v=HSDyiCuViWg)
 - [Multi Layer Neural Network (Back Propagation Algorithm) for Binary class Classification problem using categorical dataset](https://github.com/MashuAjmera/ML_MATLAB/multi_layer_binary_class_cat.m)
+- [Multi Layer Neural Network Multi class Classification problem](https://github.com/MashuAjmera/ML_MATLAB/multi_layer_multi_class.m)
 
 In the fifth part, I have written a program to implement Multilayer Neural Network for Binary classification model of Breast Cancer Wisconsin (Prognostic). In this dataset we have Number of instances:198 and Number of attributes: 34 (ID, outcome, 32 real-valued input features).
+
+In the sixth part, I have written a program to implement Multilayer Neural Network for Multiclass classification problem of Iris dataset with the attributes( Id, SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm and the three classes:( Iris Setosa, Iris Versicolour
+and Iris Virginica).
 
 ## Bayesian Inference Model
 
@@ -36,7 +40,7 @@ Here, I have written the code to implement the KNN algorithm for the diabetes da
 
 - [Predict whether the patient is diabetic](https://github.com/MashuAjmera/ML_MATLAB/knn.m) | [Tutorial](https://www.youtube.com/watch?v=FPVLWh4iX0Q)
 
-# Support Vector Machines
+## Support Vector Machines
 
 Here, I have written the code to implement the SVM algorithm for the IRIS dataset. The data set consists of 50 samples from each of three species of Iris (Iris Setosa, Iris virginica, and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters.
 
